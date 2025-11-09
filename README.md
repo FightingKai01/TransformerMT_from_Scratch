@@ -139,7 +139,7 @@ torch.cuda.manual_seed_all(10)
 
 checkpoints下载链接： https://pan.baidu.com/s/1lT7E5caMYbU_MEQPSWdxQA?pwd=0110 提取码: 0110
 
-目前最好的结果:BLEU=22.15。
+目前最好的结果:**BLEU=22.15**。
 
 ## models/model.py结构概览
 
