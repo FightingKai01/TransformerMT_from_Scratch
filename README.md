@@ -82,21 +82,20 @@ python train.py \
   --tgt_lang "de" \
   --model_name "Helsinki-NLP/opus-mt-en-de" \
   --max_len 1024 \
-  --batch_size 32 \
+  --batch_size 64 \
   --limit_train_samples 0 \
-  --num_layers 4 \
-  --d_model 512 \
+  --num_layers 2 \
+  --d_model 256 \
   --num_heads 8 \
   --d_ffn 1024 \
-  --dropout_emb 0.2 \
-  --dropout_atten 0.2 \
-  --dropout_ffn 0.2 \
-  --num_epochs 20 \
+  --dropout_emb 0.1 \
+  --dropout_atten 0.1 \
+  --dropout_ffn 0.1 \
+  --num_epochs 50 \
   --learning_rate 5e-4 \
   --weight_decay 0.01 \
   --save_dir "./checkpoints" \
   --result_dir "../results"
-  --resume "./checkpoints/checkpoint.pt"
 
 ```
 
