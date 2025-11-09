@@ -26,7 +26,7 @@ pip install -r requirements.txt
 # 项目结构
 
 ```python
-TransformerMT_from_Scratch
+Transformer_from_Scratch
 |
 |-- results
 |   |-- img.png
