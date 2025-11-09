@@ -137,6 +137,8 @@ torch.cuda.manual_seed_all(10)
 
 模型检查点存储在`./src/checkpoints/`下，`checkpoint.pt`用于断点续训，保存上次训练终止的模型最终状态，`best_checkpoint.pt`用于测试，保存训练过程中在验证集上最好的模型。
 
+目前最好的结果:BLEU=22.15。
+
 ## models/model.py结构概览
 
 |          模块          |             功能              |
