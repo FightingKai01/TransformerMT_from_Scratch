@@ -95,7 +95,8 @@ python train.py \
   --learning_rate 5e-4 \
   --weight_decay 0.01 \
   --save_dir "./checkpoints" \
-  --result_dir "../results"
+  --result_dir "../results"  \
+  --resume "./checkpoints/checkpoint.pt"
 
 ```
 
@@ -135,6 +136,8 @@ torch.cuda.manual_seed_all(10)
 训练结束后，可视化损失曲线图会自动保存在 `results/` 目录下。
 
 模型检查点存储在`./src/checkpoints/`下，`checkpoint.pt`用于断点续训，保存上次训练终止的模型最终状态，`best_checkpoint.pt`用于测试，保存训练过程中在验证集上最好的模型。
+
+checkpoints下载链接： https://pan.baidu.com/s/1lT7E5caMYbU_MEQPSWdxQA?pwd=0110 提取码: 0110
 
 目前最好的结果:BLEU=22.15。
 
