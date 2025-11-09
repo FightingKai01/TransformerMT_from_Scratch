@@ -7,12 +7,17 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 
 import argparse
 import torch
+import random
+import numpy as np
 from tqdm import tqdm
 import evaluate
 from models.model import TransformerMT
 from data.translation_datasets import Seq2SeqDataModule
 
-
+random.seed(10)
+np.random.seed(10)
+torch.manual_seed(10)
+torch.cuda.manual_seed_all(10)
 def parse_args():
     parser = argparse.ArgumentParser(description='Test Transformer Machine Translation Model')
 
