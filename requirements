@@ -1,0 +1,8 @@
+torch==2.3.0
+datasets==3.0.0
+transformers==4.50.0
+sentencepiece==0.2.1
+numpy==1.23.5
+matplotlib==3.10.7
+sacrebleu==2.5.1
+evaluate==0.4.6
