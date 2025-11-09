@@ -12,7 +12,7 @@ pip install -r requirements.txt
 |     组件      |     推荐     |
 | :-----------: | :----------: |
 |    Python     |     3.10     |
-|    PyTorch    | 2.3.0+cu121  |
+|    torch      | 2.3.0+cu121  |
 | transformers  |    4.50.0    |
 |   datasets    |    3.0.0     |
 | sentencepiece |    0.2.1     |
